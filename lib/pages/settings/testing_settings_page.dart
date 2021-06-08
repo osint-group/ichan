@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/services.dart';
 import 'package:ichan/blocs/thread/event.dart';
 import 'package:ichan/services/exports.dart';
 import 'package:ichan/services/my.dart' as my;

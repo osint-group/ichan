@@ -4,7 +4,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:ichan/blocs/post_bloc.dart';
 import 'package:ichan/models/thread.dart';
 import 'package:ichan/services/my.dart' as my;
-import 'package:ichan/services/routz.dart';
 
 class FormAttachmentButtons extends StatelessWidget {
   const FormAttachmentButtons({

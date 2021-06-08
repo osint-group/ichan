@@ -4,8 +4,6 @@ import 'package:ichan/services/consts.dart';
 import 'package:ichan/services/exports.dart';
 import 'package:ichan/widgets/menu/menu.dart';
 import 'package:ichan/services/my.dart' as my;
-import 'package:directory_picker/directory_picker.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class MediaSettingsPage extends StatefulWidget {
@@ -123,8 +121,7 @@ class _MediaSettingsPageState extends State<MediaSettingsPage> {
                   return false;
                 }
 
-                final rootDirectory = await getExternalStorageDirectory();
-                final newDirectory = null;
+                const newDirectory = null;
 
                 if (newDirectory != null) {
                   setState(() {
