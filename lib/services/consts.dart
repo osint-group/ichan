@@ -2,11 +2,10 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:device_info/device_info.dart';
 import 'package:ichan/services/exports.dart';
 import 'package:package_info/package_info.dart';
-// import 'package:disk_space/disk_space.dart';
 
+import 'package:device_info/device_info_plus.dart';
 import 'package:path_provider/path_provider.dart';
 
 import 'package:ichan/services/my.dart' as my;
