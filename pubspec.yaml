@@ -63,7 +63,6 @@ dependencies:
   receive_sharing_intent: ^1.4.1
   flutter_statusbar_manager: ^2.0.0
   easy_localization: 2.3.3
-  directory_picker: ^1.0.0
   flutter:
     sdk: flutter
 dev_dependencies:

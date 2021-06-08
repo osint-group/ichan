@@ -124,10 +124,7 @@ class _MediaSettingsPageState extends State<MediaSettingsPage> {
                 }
 
                 final rootDirectory = await getExternalStorageDirectory();
-                final newDirectory = await DirectoryPicker.pick(
-                  context: context,
-                  rootDirectory: rootDirectory,
-                );
+                final newDirectory = null;
 
                 if (newDirectory != null) {
                   setState(() {
