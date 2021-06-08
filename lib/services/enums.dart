@@ -1,4 +1,4 @@
-export 'package:iChan/models/platform.dart';
+export 'package:ichan/models/platform.dart';
 
 enum ThreadStatus {
   empty, // first time visit thread only by link
